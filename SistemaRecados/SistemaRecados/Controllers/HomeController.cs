@@ -15,14 +15,14 @@ namespace SistemaRecados.Controllers
 
         public ActionResult About()
         {
-            ViewBag.Message = "O Sistema Recados tem o objetivo de ser um mural de recados eletrônico";
+            ViewBag.Message = "Esse sistema foi copiado com sucesso pelo Paulo Soares";
 
             return View();
         }
 
         public ActionResult Contact()
         {
-            ViewBag.Message = "Sua página de contato";
+            ViewBag.Message = "página pra contado";
 
             return View();
         }
